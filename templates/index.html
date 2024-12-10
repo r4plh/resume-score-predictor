@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Resume Processor</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Resume Uploader and Job Description</h1>
+        </header>
+        <main>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="resume_folder[]" accept=".pdf" multiple required>
+                <textarea name="job_description" placeholder="Paste job description here" required></textarea>
+                <button type="submit">Upload All</button>
+            </form>
+            <section id="results" class="results"></section>
+        </main>
+    </div>
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">Loading...</div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

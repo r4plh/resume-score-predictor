@@ -1,0 +1,15 @@
+Bachelor’s degree in Computer Science from a top tier Institution.
+● At least 1 year of experience working with Generative AI models and machine learning
+algorithms.
+● Proficiency in Python with experience in libraries like TensorFlow, PyTorch, Keras, or
+Hugging Face Transformers.
+● Strong understanding of machine learning concepts such as supervised, unsupervised
+learning, and deep learning.
+● Experience with cloud platforms like AWS, GCP, or Azure for deploying AI models.
+● Knowledge of Natural Language Processing (NLP), computer vision, or speech
+recognition models.
+● Familiarity with version control systems such as Git.
+● Good problem-solving skills and attention to detail.
+● Ability to work both independently and in a collaborative team environment.
+● Experience with data preprocessing and data augmentation for AI models.
+● Strong communication skills and the ability to convey complex technical concepts
